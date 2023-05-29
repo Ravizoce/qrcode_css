@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet">
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <style>
+    /* @import url('https://fonts.google.com/specimen/Outfit'); */
+    body{
+      display: flex;
+      flex-direction: row;
+      background:hsl(220, 15%, 55%);
+      justify-content: center;
+      align-self: center;
+      height: 100vh;
+      align-items: center;
+    }
+    div{
+      border-radius: 23px;
+      background:hsl(0, 0%, 100%);
+      width: 299px;
+      height: 427px;
+      justify-content: center;
+    }
+    img{
+      width: 283px;
+      height: 283px;
+      padding:9px;
+      border-radius: 33px;
+    }
+    .out-700{
+      display: flex;
+      justify-content: center;
+      font-size: 15px;
+      margin: 0px;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+    }
+    .out-400{
+      display: flex;
+      justify-content: center;
+      font-size: 15px;
+      margin: 0px;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      color: hsl(220, 15%, 55%);
+    }
+    .mrg1{
+      margin-top:5px;
+    }
+    .mrg2{
+      margin-top:11px;
+    }
+
+
+    
+  </style>
+  </head>
+  <body>
+    <div>
+      <img src="images/image-qr-code.png" alt>
+
+      <p class="out-700 mrg1">Improve your fornt-end</p>
+      <p class="out-700">skills by building Projects</p>
+
+      <p class="out-400 mrg2">Scan the QR code to visit Frontend</p>
+      <p class="out-400">Mentor and take your codeing skills to</p>
+      <p class="out-400">the next level</p>
+    </div>
+  </body>
+</html>
